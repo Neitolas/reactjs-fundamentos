@@ -15,38 +15,41 @@ Siga os passos abaixo para configurar e executar a aplicação localmente:
 
 ### 1. Pré-requisitos
 
-Certifique-se de ter instalado:
+Certifique-se de usar em alguma ferramenta de código os scripts:
 
-* **Node.js** (versão 14 ou superior)
-* **npm** (gerenciador de pacotes do Node)
+* **<script src="https://unpkg.com/react@18/umd/react.development.js"></script>**
+* **<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>**
+* **<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>**
 
 ### 2. Clonar o Repositório
 
 Clone o repositório para sua máquina local:
 
 ```bash
-git clone [https://github.com/SeuUsuario/reactjs-fundamentos.git](https://github.com/SeuUsuario/reactjs-fundamentos.git)
+git clone [https://github.com/Neitolas/reactjs-fundamentos.git]
 cd reactjs-fundamentos/
 ```
 
 ### 3. Instalar as dependências
 
-Este projeto foi inicializado com create-react-app. Instale as dependências listadas no package.json:
+Este projeto foi inicializado com create-react-app. Instale as dependências listadas nas extensões do VsCode:
 
 ```bash
-npm install
+Live Preview
 # ou
-yarn install
+Life Server
+```
+
+```bash
+tailwindCSS e Biome para auxiliar na formatação e estilização
 ```
 
 ### 4. Rodar
 
-Por fim, inicie o servidor de desenvolvimento do React:
+Por fim, inicie o website de desenvolvimento do React:
 
 ```bash
-npm start
- # ou
-yarn start
+Clicando em Go live no canto inferior do VsCode ou Utilizando a paleta de comandos e ativando o Live Preview para visualizar o projeto.
 ```
 
-A aplicação será aberta automaticamente em seu navegador.
+A aplicação será aberta automaticamente em seu navegador ou dentro da própria ferramenta de código.

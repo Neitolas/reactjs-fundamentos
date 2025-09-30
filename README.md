@@ -24,25 +24,24 @@ Certifique-se de ter instalado:
 
 Clone o repositório para sua máquina local:
 
-bash
+´´´
 git clone [https://github.com/SeuUsuario/reactjs-fundamentos.git](https://github.com/SeuUsuario/reactjs-fundamentos.git)
-cd reactjs-fundamentos/
+cd reactjs-fundamentos/ ´´´
 
-3. Instalar as dependências
+### 3. Instalar as dependências
 
 Este projeto foi inicializado com create-react-app. Instale as dependências listadas no package.json:
 
-npm install
+´´´npm install
 # ou
-yarn install
+yarn install´´´
 
-4. Rodar
+### 4. Rodar
 
 Por fim, inicie o servidor de desenvolvimento do React:
-Bash
 
-npm start
-# ou
-yarn start
+´´´npm start
+ # ou
+yarn start´´´
 
-A aplicação será aberta automaticamente em seu navegador, geralmente em http://localhost:3000, exibindo os componentes de exemplo.
+A aplicação será aberta automaticamente em seu navegador.

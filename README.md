@@ -24,7 +24,7 @@ Certifique-se de ter instalado:
 
 Clone o repositório para sua máquina local:
 
-```bash
+bash
 git clone [https://github.com/SeuUsuario/reactjs-fundamentos.git](https://github.com/SeuUsuario/reactjs-fundamentos.git)
 cd reactjs-fundamentos/
 
@@ -36,7 +36,7 @@ npm install
 # ou
 yarn install
 
-4. Rodar!
+4. Rodar
 
 Por fim, inicie o servidor de desenvolvimento do React:
 Bash

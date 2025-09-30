@@ -24,7 +24,7 @@ Certifique-se de ter instalado:
 
 Clone o repositório para sua máquina local:
 
-´´´
+´´´bash
 git clone [https://github.com/SeuUsuario/reactjs-fundamentos.git](https://github.com/SeuUsuario/reactjs-fundamentos.git)
 cd reactjs-fundamentos/ ´´´
 
@@ -32,7 +32,8 @@ cd reactjs-fundamentos/ ´´´
 
 Este projeto foi inicializado com create-react-app. Instale as dependências listadas no package.json:
 
-´´´npm install
+´´´bash
+npm install
 # ou
 yarn install´´´
 
@@ -40,7 +41,8 @@ yarn install´´´
 
 Por fim, inicie o servidor de desenvolvimento do React:
 
-´´´npm start
+´´´bash
+npm start
  # ou
 yarn start´´´
 

@@ -1,0 +1,9 @@
+services: 
+  web:
+    image: nginx:stable-alpine
+    container_name: calcNathan
+    ports:
+      - "3000:80"
+    volumes:
+      - ./calc:/usr/share/nginx/html
+    restart: always
